@@ -1,7 +1,7 @@
 
 var admin = require("firebase-admin");
 
-var serviceAccount = require("C:/Users/mounp/Desktop/SmartParking/SPAPI/smartparking-8dcd2-firebase-adminsdk-2whbn-66a989a40a.json");
+var serviceAccount = require("/smartparking-8dcd2-firebase-adminsdk-2whbn-66a989a40a.json");
 
 admin.initializeApp({
   credential: admin.credential.cert(serviceAccount),
