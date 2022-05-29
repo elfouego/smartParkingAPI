@@ -17,7 +17,7 @@ class Database {
         //  we can simply use default credential.
         // However, if your app run different location, you need to create a JSON Firebase credentials
 
-        var serviceAccount = require("/smartparking-8dcd2-firebase-adminsdk-2whbn-66a989a40a.json");
+        var serviceAccount = require("../smartparking-8dcd2-firebase-adminsdk-2whbn-66a989a40a.json");
 
         admin.initializeApp({
              credential: admin.credential.cert(serviceAccount),
