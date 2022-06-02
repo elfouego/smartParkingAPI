@@ -1,5 +1,11 @@
+// Import the functions you need from the SDKs you need
 import { initializeApp } from "firebase/app";
-const firebase = require('firebase');
+import { getAnalytics } from "firebase/analytics";
+// TODO: Add SDKs for Firebase products that you want to use
+// https://firebase.google.com/docs/web/setup#available-libraries
+
+// Your web app's Firebase configuration
+// For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
   apiKey: "AIzaSyDhhBVi-tyREMJ356QYwP1cr62yRMmElYM",
   authDomain: "smartparking-8dcd2.firebaseapp.com",
@@ -7,8 +13,10 @@ const firebaseConfig = {
   projectId: "smartparking-8dcd2",
   storageBucket: "smartparking-8dcd2.appspot.com",
   messagingSenderId: "572091456455",
-  appId: "1:572091456455:web:bdac8945120852e2d757e2",
-  measurementId: "G-Y1W5KNZMB5"
+  appId: "1:572091456455:web:c247915dfc2d12ecd757e2",
+  measurementId: "G-RV9YT57G3J"
 };
-firebase.initializeApp(firebaseConfig); // initialise l'application 
- module.exports = { firebase } ; //exporter l'application
+
+// Initialize Firebase
+const app = initializeApp(firebaseConfig);
+const analytics = getAnalytics(app);

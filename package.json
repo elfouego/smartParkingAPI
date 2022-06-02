@@ -1,5 +1,5 @@
 {
-  "name": "spapi",
+  "name": "smartparkingapi",
   "version": "1.0.0",
   "description": "Api pour intergargir avec la BD et le systeme IOT",
   "main": "index.js",
@@ -12,7 +12,15 @@
   "dependencies": {
     "express": "^4.18.1",
     "firebase": "^9.7.0",
-    "firebase-admin": "^10.1.0",
-    "firebase-functions": "^3.20.1"
-  }
+    "firebase-admin": "^7.4.0",
+    "firebase-functions": "^2.3.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elfouego/smartParkingAPI.git"
+  },
+  "bugs": {
+    "url": "https://github.com/elfouego/smartParkingAPI/issues"
+  },
+  "homepage": "https://github.com/elfouego/smartParkingAPI#readme"
 }
