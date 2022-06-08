@@ -8,7 +8,7 @@ const {
 // GET DATA OF PLACES
 router.route("/").get(getAllplaces);
 // UPDATE ONE PLACE
-router.route("/:idPlace").put(updatePlace);
+router.route("/:idPlace").pacth(updatePlace);
 // DELETE ONE PLACE
 //router.route("/delete/:idUser").delete(deletePlace);
 
